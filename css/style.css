@@ -1,0 +1,352 @@
+/*** reset all browser default style **/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+}
+
+/** common styles **/
+header,
+main,
+footer {
+  width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  font-size: 19px;
+  color: #005fac;
+  background: #fff;
+  width: 130px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/*** styles of header **/
+
+header {
+  background-image: url("../images/banner/banner3.png");
+  background-color: #146fae;
+  background-size: cover;
+  background-position: bottom center;
+}
+.header-area {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.navigation-area {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-area a.ph_logo {
+  display: flex;
+  align-items: center;
+}
+
+.ph_logo img {
+  width: auto;
+}
+
+h2.site-name {
+  color: #fff;
+  text-shadow: 0.5px 1.2px #333;
+}
+.navigation-items {
+  display: flex;
+  align-items: center;
+}
+.navigation-items .nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  margin-left: 20px;
+}
+.nav-list li a {
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.nav-list li a:hover {
+  text-decoration: underline;
+}
+.nav-list li a.active {
+  color: #000;
+}
+
+/** banner area styles **/
+
+.banner-area {
+  justify-content: right;
+  display: flex;
+  padding: 200px 0;
+}
+.bnner-description-area {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  max-width: 500px;
+}
+
+.main-title {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 600;
+  text-align: right;
+  padding: 20px 0;
+}
+
+p.banner-description {
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/** my description area styles **/
+.my-description-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.my-failure-description {
+  text-align: left;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.my-failer-title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+}
+.my-failure-description p {
+  font-size: 16px;
+  color: #000;
+  margin: 20px 0;
+  line-height: 28px;
+}
+
+.my-failure-list li {
+  font-size: 16px;
+  color: #000;
+  padding: 10px 0;
+  align-items: center;
+  display: flex;
+}
+.my-failure-list li img {
+  margin-right: 10px;
+}
+/** my plan area styles **/
+
+.container.my-plans-area {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.my-plan-main-title {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 15px 0;
+  margin: 50px 0;
+}
+.my-palns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.my-plan {
+  text-align: center;
+}
+
+.my-plan-title {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 15px 0;
+}
+p.my-plan-desc {
+  font-size: 20px;
+}
+
+/** call us now area styles **/
+.call-now-section {
+  background: url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.call-now-area {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to left,
+    rgb(20, 112, 177, 0),
+    rgb(20, 112, 177, 1)
+  );
+
+  padding: 135px 0;
+  border-radius: 7px;
+}
+
+.call-now-title {
+  font-size: 40px;
+  color: #fff;
+  padding: 0 80px;
+  font-weight: 600;
+}
+
+.call-now-area .btn-primary {
+  float: right;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+/** testimonial section styles **/
+
+.feedback-area {
+  padding: 140px 0;
+}
+/** feedback / testimonial section styles **/
+
+.feedback-top-content,
+.feedback-persons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.feedback-top-content {
+  justify-content: space-between;
+}
+.fedback-content {
+  text-align: center;
+  max-width: 460px;
+  padding: 30px 20px;
+  border: 1px solid #c5cbcb;
+  border-radius: 0.125rem;
+  box-shadow: 0 40px 40px #0000001a;
+  position: relative;
+  isolation: isolate;
+}
+
+.fedback-content::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  transform: rotate(-135deg) translateY(-16px);
+  border-top: 1px solid #c5cbcb;
+  border-left: 1px solid #c5cbcb;
+  bottom: 0;
+  left: 100px;
+  z-index: -1;
+}
+
+.fedback-content p {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+h3.section-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.what-people-say p {
+  font-size: 24px;
+  color: #555;
+}
+.feedback-persons {
+  padding-top: 60px;
+  text-align: center;
+  justify-content: right;
+  column-gap: 40px;
+}
+img.person-image {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/** footer area styles ***/
+footer {
+  background: #000;
+}
+.footer-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 0;
+  color: #fff;
+}
+.footer-scocial-area {
+  max-width: 500px;
+}
+
+h5.footer-title {
+  font-size: 45px;
+  font-weight: 600;
+  padding: 25px 0;
+}
+
+.footer-area .description,
+.email,
+.phone {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px 0;
+}
+.email a {
+  color: #fff;
+  text-decoration: none;
+}
+.social-icons {
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 20px;
+}
+
+.subscription-form input[type="text"] {
+  background: transparent;
+  border: 1px solid #fff;
+  width: 270px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.subscription-btn {
+  font-size: 16px;
+  color: #fff;
+  background: #005fac;
+  width: 130px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
