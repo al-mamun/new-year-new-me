@@ -207,6 +207,7 @@ p.my-plan-desc {
     rgb(20, 112, 177, 1)
   );
   padding: 135px 0;
+   border-radius: 7px;
 }
 
 .call-now-title {
